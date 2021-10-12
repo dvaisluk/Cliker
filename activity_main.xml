@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<AbsoluteLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:ignore="Deprecated">
+
+    <TextView
+        android:id="@+id/mainTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="151dp"
+        android:layout_y="326dp"
+        android:text="@string/NuLL" >
+    </TextView>
+
+    <Button
+        android:id="@+id/minus_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="207dp"
+        android:layout_y="344dp"
+        android:text="@string/minuss" >
+    </Button>
+
+    <Button
+        android:id="@+id/plus_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="67dp"
+        android:layout_y="348dp"
+        android:text="@string/plus" >
+    </Button>
+
+    <ImageButton
+        android:id="@+id/imageButton11"
+        android:layout_width="78dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_x="139dp"
+        android:layout_y="401dp"
+        android:contentDescription="@string/todo"
+        android:src="@android:drawable/ic_menu_delete"
+        android:tint="#0C0C0C"
+        tools:ignore="SpeakableTextPresentCheck">
+
+    </ImageButton>
+
+
+</AbsoluteLayout>
